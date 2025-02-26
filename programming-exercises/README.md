@@ -3,7 +3,7 @@ Treść:
 Napisz program (na dwa sposoby), który sprawdza czy wczytany pojedynczy znak jest cyfrą lub nie. Jeśli wczytamy więcej znaków, należy wziąć tylko pierwszy.
 Hint: skorzystaj z funkcji isdigit() i isinstance().
 
-Link: 
+Link: https://github.com/endis1306/Isi/blob/main/programming-exercises/task-01.py
 
 **task-02**  
 Treść:  
