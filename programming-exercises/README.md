@@ -8,11 +8,11 @@ Link: https://github.com/endis1306/Isi/blob/main/programming-exercises/task-01.p
 
 **task-02**  
 Treść:  
-Link:  
+Link: https://github.com/endis1306/Isi/blob/main/programming-exercises/task-02.py
 
 **task-03**  
 Treść:  
-Link:  
+Link: https://github.com/endis1306/Isi/blob/main/programming-exercises/task-03.py
 
 **task-04**  
 Treść:  
