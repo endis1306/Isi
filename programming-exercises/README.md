@@ -4,7 +4,7 @@ Treść:
 Napisz program (na dwa sposoby), który sprawdza czy wczytany pojedynczy znak jest cyfrą lub nie. Jeśli wczytamy więcej znaków, należy wziąć tylko pierwszy.
 Hint: skorzystaj z funkcji isdigit() i isinstance().
 
-Link: https://github.com/endis1306/Isi/blob/main/screenshots/Przechwytywanie1.PNG
+Link: https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie1.PNG
 
 **task-02**  
 Treść:  
