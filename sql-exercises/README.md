@@ -3,13 +3,16 @@
 **Tytuł**:  bcb
 
 **SQL**:  cvbcvb
+
 **Link**: [Przechwytywanie1](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie1.PNG)
 
 ---
 
 ## **exercise-02**  
 **Tytuł**: 
+
 **SQL**:  
+
 **Link**: [Przechwytywanie2](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie2.PNG)
 
 ---
