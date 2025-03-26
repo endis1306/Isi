@@ -1,7 +1,7 @@
 
 ## **exercise-01**  
-**Tytuł**: 
-**SQL**:  
+**Tytuł**:  bcb
+**SQL**:  cvbcvb
 **Link**: [Przechwytywanie1](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie1.PNG)
 
 ---
