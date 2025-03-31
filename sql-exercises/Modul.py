@@ -3,7 +3,7 @@ from sqlite3 import Error
 from tabulate import tabulate
 
 class Sql:
-    def __init__(self, db_file="C:/Users/25116/Desktop/SQL Exercises/Isi/sql-exercises/db/penguins.db"):
+    def __init__(self, db_file="./db/penguins.db"):
         self.conn = None
         try:
             self.conn = sqlite3.connect(db_file)
@@ -30,8 +30,6 @@ class Sql:
             
             # Wyświetlanie wyników w tabeli
             print(tabulate(rows, headers=column_names, tablefmt="pretty"))
-            
-            return rows
         
         except Error as e:
             print(f"Błąd podczas wykonywania zapytania SELECT: {e}")
@@ -62,3 +60,15 @@ class Sql:
             print("Dane zostały usunięte.")
         except Error as e:
             print(f"Błąd podczas wykonywania zapytania DELETE: {e}")
+
+    def create_table(self, sql_create_table):
+        """Tworzy tabelę w bazie danych."""
+        try:
+            c = self.conn.cursor()
+            c.execute(sql_create_table)
+            self.conn.commit()
+            print("Tabela została utworzona.")
+        except Error as e:
+            print(f"Błąd podczas tworzenia tabeli: {e}")
+
+
