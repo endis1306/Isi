@@ -40,7 +40,7 @@ Write a query to select the body masses from penguins that are less than 3000.0 
 **SQL**:  
 select body_mass_g from penguins where body_mass_g < 3000
 
-**Link**: [Przechwytywanie4](https://github.com/endis1306/Isi/blob/main/screenshots/Przechwytywanie4.PNG)
+**Link**: [Przechwytywanie4](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie4.PNG)
 
 ---
 
@@ -51,7 +51,7 @@ Write another query to select the species and sex of penguins that weight less t
 **SQL**:  
 select species ,sex from penguins  where body_mass_g < 3000
 
-**Link**: [Przechwytywanie5](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie5.PNG)
+**Link**: [Przechwytywanie5](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie5.PNG)
 
 ---
 
@@ -62,7 +62,7 @@ Use the not operator to select penguins that are not Gentoos.
 **SQL**:  
 select * from penguins where species is not 'Gentoo'
 
-**Link**: [Przechwytywanie6](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie6.PNG)
+**Link**: [Przechwytywanie6](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie6.PNG)
 
 ---
 
@@ -73,7 +73,7 @@ SQL's or is an inclusive or: it succeeds if either or both conditions are true. 
 **SQL**:  
 select * from penguins where (sex = 'FEMALE' and island != 'Torgersen') or (sex = 'MALE' and island = 'Torgersen')
 
-**Link**: [Przechwytywanie7](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie7.PNG)
+**Link**: [Przechwytywanie7](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie7.PNG)
 
 ---
 
@@ -84,7 +84,7 @@ A column called what_where that has the species and island of each penguin separ
 **SQL**:  
 SELECT species || ' ' || island AS combined_info FROM penguins;
 
-**Link**: [Przechwytywanie8](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie8.PNG)
+**Link**: [Przechwytywanie8](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie8.PNG)
 
 ---
 
@@ -95,7 +95,7 @@ A column called bill_ratio that has the ratio of bill length to bill depth.
 **SQL**:  
 SELECT *, bill_length_mm / bill_depth_mm AS bill_ratio FROM penguins
 
-**Link**: [Przechwytywanie9](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie9.PNG)
+**Link**: [Przechwytywanie9](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie9.PNG)
 
 ---
 
@@ -112,7 +112,7 @@ select
 from penguins
 limit 5;
 
-**Link**: [Przechwytywanie10](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie10.PNG)
+**Link**: [Przechwytywanie10](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie10.PNG)
 
 ---
 
@@ -123,7 +123,7 @@ Write a query to find penguins whose body mass is known but whose sex is not.
 **SQL**:  
 SELECT * FROM penguins WHERE body_mass_g IS NOT NULL AND sex IS NULL
 
-**Link**: [Przechwytywanie11](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie11.PNG)
+**Link**: [Przechwytywanie11](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie11.PNG)
 
 ---
 
@@ -138,7 +138,7 @@ WHERE body_mass_g IS NULL
 AND sex IS NOT NULL
 
 
-**Link**: [Przechwytywanie12](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie12.PNG)
+**Link**: [Przechwytywanie12](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie12.PNG)
 
 ---
 
@@ -151,7 +151,7 @@ SELECT AVG(body_mass_g) AS average_body_mass
 FROM penguins
 WHERE body_mass_g > 3000.0
 
-**Link**: [Przechwytywanie13](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie13.PNG)
+**Link**: [Przechwytywanie13](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie13.PNG)
 
 ---
 
@@ -163,7 +163,7 @@ How many different body masses are in the penguins dataset?
 SELECT COUNT(DISTINCT body_mass_g) AS unique_body_masses
 FROM penguins
 
-**Link**: [Przechwytywanie14](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie14.PNG)
+**Link**: [Przechwytywanie14](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie14.PNG)
 
 ---
 
@@ -178,7 +178,7 @@ FROM penguins
 GROUP BY body_mass_g
 ORDER BY body_mass_g;
 
-**Link**: [Przechwytywanie15](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie15.PNG)
+**Link**: [Przechwytywanie15](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie15.PNG)
 
 ---
 
@@ -192,7 +192,7 @@ AVG(body_mass_g) FILTER(WHERE body_mass_g > 4500) AS average_heavy_penguins,
 AVG(body_mass_g) FILTER(WHERE body_mass_g < 3500) AS average_light_penguins
 FROM penguins
 
-**Link**: [Przechwytywanie16](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie16.PNG)
+**Link**: [Przechwytywanie16](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie16.PNG)
 
 ---
 
@@ -209,7 +209,7 @@ insert into Notess (autor, note) VALUES ('Alex', 'codsfsfds')
 insert into Notess (autor, note) VALUES ('Jacek', 'Album9')
 select * from Notess
 
-**Link**: [Przechwytywanie17](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie17.PNG)
+**Link**: [Przechwytywanie17](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie17.PNG)
 
 ---
 
@@ -222,7 +222,7 @@ select * from Notess
 **Python Script Link**: https://github.com/endis1306/Isi/blob/main/sql-exercises/exercise-18.py
 
 
-**Link**: [Przechwytywanie18](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie18.PNG)
+**Link**: [Przechwytywanie18](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie18.PNG)
 
 ---
 
@@ -235,7 +235,7 @@ select * from Notess
 **Python Script Link**: https://github.com/endis1306/Isi/blob/main/sql-exercises/exercise-19.py
 
 
-**Link**: [Przechwytywanie19](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie19.PNG)
+**Link**: [Przechwytywanie19](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie19.PNG)
 
 ---
 
@@ -248,7 +248,7 @@ elect *
 from work inner join job
 on job = nam
 
-**Link**: [Przechwytywanie1](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie1.PNG)
+**Link**: [Przechwytywanie20](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie20.PNG)
 
 ---
 
@@ -262,6 +262,6 @@ FROM work w
 INNER JOIN job j ON w.job = j.name
 GROUP BY w.person
 
-**Link**: [Przechwytywanie19](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie19.PNG)
+**Link**: [Przechwytywanie21](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie21.PNG)
 
 ---
