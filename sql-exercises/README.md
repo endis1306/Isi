@@ -10,7 +10,7 @@ Write a SQL query to select the sex and body mass columns from the little_pengui
 ---
 
 ## **exercise-02**  
-**Tytuł**: 
+**Tytuł**:  
 Write a SQL query to select the islands and species from rows 50 to 60 inclusive of the penguins table. Your result should have 11 rows.
 
 **SQL**:  
