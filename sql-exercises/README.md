@@ -7,7 +7,7 @@ Write a SQL query to select the sex and body mass columns from the little_pengui
 SELECT sex, body_mass_g FROM little_penguins ORDER BY body_mass_g DESC"
 
 
-**Link**: [Przechwytywanie1](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie1.PNG)
+**Link**: [Przechwytywanie1](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie1.PNG)
 
 ---
 
