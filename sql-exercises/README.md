@@ -18,7 +18,7 @@ Write a SQL query to select the islands and species from rows 50 to 60 inclusive
 **SQL**:  
 select * from penguins limit 11 offset 49
 
-**Link**: [Przechwytywanie2](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie2.PNG)
+**Link**: [Przechwytywanie2](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie2.PNG)
 
 ---
 
@@ -29,7 +29,7 @@ Modify your query to select distinct combinations of island and species from the
 **SQL**:  
 SELECT DISTINCT island, species FROM ( SELECT island, species FROM penguins LIMIT 11 OFFSET 49 ) AS subquery
 
-**Link**: [Przechwytywanie3](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie3.PNG)
+**Link**: [Przechwytywanie3](https://github.com/endis1306/Isi/blob/main/sql-exercises/screenshots/Przechwytywanie3.PNG)
 
 ---
 
