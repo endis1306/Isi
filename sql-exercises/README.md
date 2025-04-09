@@ -1,6 +1,7 @@
 
 ## **exercise-01**  
-**Tytuł**:  bcb
+**Tytuł**:  
+Write a SQL query to select the sex and body mass columns from the little_penguins in that order, sorted such that the largest body mass appears first.
 
 **SQL**:  cvbcvb
 
@@ -10,6 +11,7 @@
 
 ## **exercise-02**  
 **Tytuł**: 
+Write a SQL query to select the islands and species from rows 50 to 60 inclusive of the penguins table. Your result should have 11 rows.
 
 **SQL**:  
 
@@ -170,3 +172,20 @@
 
 ---
 
+## **exercise-20**  
+**Tytuł**:  bcb
+
+**SQL**:  cvbcvb
+
+**Link**: [Przechwytywanie1](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie1.PNG)
+
+---
+
+## **exercise-21**  
+**Tytuł**: 
+
+**SQL**:  
+
+**Link**: [Przechwytywanie19](https://github.com/endis1306/Isi/blob/main/programming-exercises/screenshots/Przechwytywanie19.PNG)
+
+---
